@@ -3,15 +3,16 @@
     "description": "Learning Symfony and making my own php framework",
     "type": "library",
     "require": {
-        "symfony/http-foundation": "7.0.x-dev",
-        "symfony/routing": "7.0.x-dev",
-        "symfony/http-kernel": "7.0.x-dev",
-        "symfony/string": "7.0.x-dev"
+        "php": ">=8.2",
+        "symfony/http-foundation": "7.0.*",
+        "symfony/routing": "7.0.*",
+        "symfony/http-kernel": "7.0.*",
+        "symfony/string": "7.0.*"
     },
     "require-dev": {
-        "symfony/var-dumper": "7.0.x-dev"
+        "symfony/var-dumper": "7.0.*"
     },
-    "license": "MIT License",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Rendala\\PhpFramework\\": "src/"

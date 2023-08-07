@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "78f98f82d0c2964ac6c42cb860db62bc",
+    "content-hash": "4fbd6ce0d8ea1e05445666a3eba866e4",
     "packages": [
         {
             "name": "psr/event-dispatcher",
@@ -1284,16 +1284,12 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "symfony/http-foundation": 20,
-        "symfony/routing": 20,
-        "symfony/http-kernel": 20,
-        "symfony/string": 20,
-        "symfony/var-dumper": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=8.2"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
 }
