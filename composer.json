@@ -16,7 +16,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Rendala\\PhpFramework\\": "src/"
+            "\\": "src/"
         }
     },
     "authors": [
